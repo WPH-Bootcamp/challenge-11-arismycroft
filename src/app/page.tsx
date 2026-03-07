@@ -1,9 +1,19 @@
 import { MusicPlayer } from "@/components/MusicPlayer";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-50 p-16">
+    <main
+      className="
+        min-h-screen
+        w-full
+        bg-black
+        flex
+        items-center
+        justify-center
+        overflow-hidden
+      "
+    >
       <MusicPlayer />
-    </div>
+    </main>
   );
 }
